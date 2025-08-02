@@ -1,10 +1,9 @@
-import './globals.css'
+import '../app/globals.css'
 import { ReactNode } from 'react'
 
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="sv">
-      <head /> {/* 🔧 Måste finnas med */}
       <body>{children}</body>
     </html>
   )
